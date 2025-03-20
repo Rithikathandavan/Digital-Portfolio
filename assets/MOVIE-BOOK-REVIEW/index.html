@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie & Book Reviews</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>My Movie & Book Reviews</h1>
+  </header>
+
+  <section class="controls">
+    <input type="text" id="search" placeholder="Search..."/>
+    <select id="filter">
+      <option value="all">All</option>
+      <option value="movie">Movies</option>
+      <option value="book">Books</option>
+      <option value="k-drama">K-Drama</option>
+      <option value="series">Series</option>
+      <option value="disney">Disney</option>
+    </select>
+  </section>
+
+  <section id="items-container" class="items"></section>
+
+  <footer>
+    <p>&copy; 2025 My Reviews. All rights reserved.</p>
+  </footer>
+</body>
+</html>
